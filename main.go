@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func minusPercent(x int) int {
 	needPercent := 90
 	needPercent = needPercent * x / 100
@@ -17,8 +15,5 @@ func fuelConsumption(neededLiters int, haveLiters int)int{
 }
 
 func main() {
-	var needLiters int = 5
-	var haveLiters int = 2
-	restOfTheWay := fuelConsumption(needLiters, haveLiters)
-	fmt.Println(restOfTheWay)
+
 }
