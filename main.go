@@ -15,5 +15,8 @@ func fuelConsumption(neededLiters int, haveLiters int)int{
 }
 
 func main() {
+	needLiters := 5
+	haveLiters := 2
+	fuelConsumption(needLiters, haveLiters)
 
 }
