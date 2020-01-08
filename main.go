@@ -10,8 +10,8 @@ func fuelConsumption(neededLiters int, haveLiters int)int{
 	if haveLiters <= 0 || neededLiters <= 0 {
 		return 0
 	}
-
-	canGo := haveLiters * 100 / neededLiters
+	const DistanceCanGoByNeedLiters = 100
+	canGo := haveLiters * DistanceCanGoByNeedLiters / neededLiters
 	return minusPercent(canGo)
 }
 
